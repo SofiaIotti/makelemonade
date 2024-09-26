@@ -17,7 +17,7 @@ Built with
 ![React Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Spoonacular](https://img.shields.io/badge/Spoonacular_API-FF6347?style=for-the-badge&logo=spoonacular&logoColor=white)
+![Spoonacular](https://img.shields.io/badge/Spoonacular_API-4CAF50?style=for-the-badge&logo=spoonacular&logoColor=white)
 
 Screenshots
 
