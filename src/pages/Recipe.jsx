@@ -26,7 +26,7 @@ const Recipe = () => {
     }, [id]);
 
     if (!recipe && !error){
-        return <p>Caricamento...</p>;
+        return <p>Loading...</p>;
     }
 
     return (
@@ -56,7 +56,7 @@ const Recipe = () => {
                     </div>
                     <div className={'buttons'}>
                     <button className={'back'} onClick={() => navigate(-1)}>
-                        Torna Indietro
+                       Back
                     </button>
                     <Link to="/">
                         <button className={'backhome'}>Home</button>
@@ -64,7 +64,7 @@ const Recipe = () => {
                     </div>
                 </div>
             ) : (
-                <p>Errore</p>
+                <p>Error</p>
             )}
         </>
     )
