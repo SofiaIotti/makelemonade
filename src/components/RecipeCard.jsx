@@ -8,7 +8,7 @@ const RecipeCard = ({recipe}) => {
                 <img src={recipe.image} alt={recipe.title}
                     onError={(e) => {
                         e.target.onerror = null;
-                        e.target.src = "./assets/default-recipe-image.png";
+                        e.target.src = "/assets/default-recipe-image.png";
                     }}
                 ></img>
                 <h3>{recipe.title}</h3>
