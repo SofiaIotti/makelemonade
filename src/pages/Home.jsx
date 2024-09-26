@@ -19,21 +19,21 @@ const Home = () => {
     return (
         <div className={'home-container'}>
             <h1 className="hometitle">When life gives you lemon, make lemonade!</h1>
-            <h2 className="claim">Ricette veg per tutti i gusti, da tutto il mondo.</h2>
+            <h2 className="claim">Veg recipes for everybody, from all over the world.</h2>
             <SearchBar onSearch={handleSearch}/>
             <div className={'recipes-container'}>
-                {status === 'loading' && <div><p>Caricamento...</p>
+                {status === 'loading' && <div><p>Loading...</p>
                 <Link to="/">
                 <button className={'backhome'}>Home</button>
                 </Link></div>
                 }
-                {status === 'failed' && <div><p>Errore durante la ricerca.</p>
+                {status === 'failed' && <div><p>Error during the search.</p>
                 <Link to="/">
                 <button className={'backhome'}>Home</button>
                 </Link></div>
                 }
                 {status === 'success' && items.length === 0 && query.trim() && (
-                <p className="no-recipes-message">Nessuna ricetta corrisponde alla tua ricerca.<br/>Prova con un'altra parola.</p> 
+                <p className="no-recipes-message">No recipe matches your search.<br/>Try with another world.</p> 
                 )}
                 {items.map((recipe) => (
                 <RecipeCard key={recipe.id} recipe={recipe} />
