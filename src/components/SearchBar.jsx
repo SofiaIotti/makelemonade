@@ -14,11 +14,11 @@ const SearchBar = ({onSearch}) => {
         <form onSubmit={handleSubmit} className={'search-bar'}>
             <input
                 type="text"
-                placeholder="Cerca ricette vegetariane..."
+                placeholder="Search for veg recipes..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
             />
-            <button type="submit">Cerca</button>
+            <button type="submit">Search</button>
         </form>
     )
 };
