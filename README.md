@@ -1,6 +1,6 @@
-JavaScript Advanced Project - Start2Impact University
+React Project - Start2Impact University
 
-LINK TO THE PROJECT: [https://libreriaonlinejavascript.netlify.app
+LINK TO THE PROJECT: [Make Lemonade
 ](https://makelemonade.netlify.app)
 
 Built with
